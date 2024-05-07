@@ -57,6 +57,6 @@ matrix = image_match(left_image, right_image, grid, max_disparity)
 depth_map = cv2.applyColorMap(matrix, cv2.COLORMAP_JET)
 
 # Display the depth map
-cv2.imshow('Depth_map_from_scratch.png', depth_map)
+cv2.imshow('Depth_map', depth_map)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
